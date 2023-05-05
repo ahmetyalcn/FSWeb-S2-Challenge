@@ -196,7 +196,7 @@ manav = meyveler.concat(sebzeler)
 
 function emojileriDonustur(mesaj,emojiler) {
   for(let emoji in emojiler){
-    mesaj = mesaj.replaceAll(emoji, emojiler[emoji]).replaceAll(emoji.toUpperCase(), emojiler[emoji]);
+    mesaj = mesaj.replaceAll(emoji.toLowerCase(), emojiler[emoji]).replaceAll(emoji.toUpperCase(), emojiler[emoji]);
   }
   return mesaj
 }
