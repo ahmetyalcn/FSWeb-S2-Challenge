@@ -175,8 +175,8 @@ elemanlara denk gelecek şekilde, iki diziyi birleştirip sonucu manav dizisine 
  */
 //3c çözümü
 
-var manav = [];
-manav = manav.concat(meyveler,sebzeler)
+var manav;
+manav = meyveler.concat(sebzeler)
 /* 	GÖREV 4:
 		Yeni kurulmuş bir mesajlaşma startup firması atılan mesajları emojilerle zenginleştirmek istiyor. 
     Bunun için emojiler adında bir nesne tanımlamışlar. Kullanıcının gönderdiği mesaj stringi içinde 
